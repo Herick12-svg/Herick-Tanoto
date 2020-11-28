@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import InputForm from './component/InputForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App Name='Herick' Address='Cemara Asri'/>
+    <InputForm></InputForm>
   </React.StrictMode>,
   document.getElementById('root')
 );
